@@ -17,18 +17,20 @@ VALUES
 
 INSERT INTO "language" ("id", "name", "user_id")
 VALUES
-  (1, 'French', 1);
+  (1, 'Spanish', 1);
 
 INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
 VALUES
-  (1, 1, 'entraine toi', 'practice', 2),
-  (2, 1, 'bonjour', 'hello', 3),
-  (3, 1, 'maison', 'house', 4),
-  (4, 1, 'développeur', 'developer', 5),
-  (5, 1, 'traduire', 'translate', 6),
-  (6, 1, 'incroyable', 'amazing', 7),
-  (7, 1, 'chien', 'dog', 8),
-  (8, 1, 'chat', 'cat', null);
+  (1, 1, 'proyecto', 'project', 2),
+  (2, 1, 'codigo', 'code', 3),
+  (3, 1, 'computadora', 'computer', 4),
+  (4, 1, 'trabajo', 'work', 5),
+  (5, 1, 'comer', 'eat', 6),
+  (6, 1, 'programacion', 'programming', 7),
+  (7, 1, 'zorro', 'fox', 8),
+  (8, 1, 'verano', 'summer', 9),
+  (9, 1, 'frio', 'cold', 10),
+  (10, 1, 'carro', 'car', null);
 
 UPDATE "language" SET head = 1 WHERE id = 1;
 
